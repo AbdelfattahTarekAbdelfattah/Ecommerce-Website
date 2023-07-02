@@ -1,0 +1,113 @@
+:root{
+    --orange: hsl(26, 100%, 55%);
+    --paleOrange: hsl(25, 100%, 94%);
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #a5a5a5;
+}
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: -2px;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+section{
+    padding: 100px 0;
+}
+.m-10{
+    margin-top: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards .card img{
+    border-radius: 10px;
+    width: 80%;
+    cursor: pointer;
+}
+.border-10{
+    border-radius: 10px;
+}
+.w-80{
+    width: 80%;
+}
+.span{
+    color: var(--orange);
+}
+.w-50 h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.w-50 p{
+    color: #777;
+    line-height: 30px;
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+}
+.icons{
+    width: 40%;
+    height: 70px;
+    background: #f0f0f0;
+    text-align: center;
+    border-radius: 10px;
+}
+.icons div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.icons img,span{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+.icons img{
+    width: 10%;
+    cursor: pointer;
+}
+.btn{
+    background: var(--orange);
+    border: 0;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
